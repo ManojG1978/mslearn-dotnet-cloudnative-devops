@@ -39,8 +39,8 @@ env:
   CONTAINER_NAME: 'productservice'
   RESOURCE_GROUP: 'rg-eshop'
   CLUSTER_NAME: 'aks-eshop'
-  DEPLOYMENT_MANIFEST_PATH: './dotnet-deploy/Product.yml'
-  DOCKER_PATH: './dotnet-deploy/DockerfileProducts'
+  DEPLOYMENT_MANIFEST_PATH: './Product.yml'
+  DOCKER_PATH: './DockerfileProducts'
 
 jobs:
   buildImage:
