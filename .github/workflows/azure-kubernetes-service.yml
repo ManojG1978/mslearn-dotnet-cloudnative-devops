@@ -35,7 +35,7 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_CONTAINER_REGISTRY: 'acseshop1680758337'
+  AZURE_CONTAINER_REGISTRY: 'acseshop1105023429'
   CONTAINER_NAME: 'productservice'
   RESOURCE_GROUP: 'rg-eshop2'
   CLUSTER_NAME: 'aks-eshop2'
