@@ -37,8 +37,8 @@ on:
 env:
   AZURE_CONTAINER_REGISTRY: 'acseshop1105023429'
   CONTAINER_NAME: 'productservice'
-  RESOURCE_GROUP: 'rg-eshop2'
-  CLUSTER_NAME: 'aks-eshop2'
+  RESOURCE_GROUP: 'rg-eshop'
+  CLUSTER_NAME: 'aks-eshop'
   DEPLOYMENT_MANIFEST_PATH: './dotnet-deploy/Product.yml'
   DOCKER_PATH: './dotnet-deploy/DockerfileProducts'
 
